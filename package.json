@@ -1,0 +1,16 @@
+{
+  "name": "hamid-nodejs-webapp",
+  "version": "1.0.0",
+  "description": "This is my simple node js application on Ubuntu wsl2 on Windows 10",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --recursive --timeout 60000 --exit",
+    "start": "node server.js"
+  },
+  "author": "Hamid Moussaoui zadman50@yahoo.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mocha": "^10.2.0"
+  }
+}
