@@ -21,9 +21,6 @@ app.get('/contact', (req,res) => {
 	res.sendFile(path.join(__dirname+'/contact.html'));
 });
 
-app.get('/images', (req,res) => {
-	res.sendFile(path.join(__dirname+'/images.png'));
-});
 
 app.listen(3000, () => {
 
